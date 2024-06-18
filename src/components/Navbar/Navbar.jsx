@@ -1,14 +1,14 @@
 import { Component } from "react";
-import logo from "../../assets/images/logo.png";
-import "./Navbar.css";
+import logoImg from "../../assets/images/logo.png";
+import "./styles.css";
 
-export default class Navbar extends Component {
+export class Navbar extends Component {
   render() {
     return (
       <header>
         <nav className="navbar">
           <figure className="navbar-brand">
-            <img src={logo} alt="React's logo." />
+            <img src={logoImg} alt="React's logo." />
             <h1>React News</h1>
           </figure>
           <ul className="navbar-options">
